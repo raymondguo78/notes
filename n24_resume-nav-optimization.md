@@ -1,5 +1,9 @@
 # resume nav optimization
 
+resume:https://raymondguo78.github.io/myResume/index.html
+
+---
+
 ### loading page
 
 HTML
