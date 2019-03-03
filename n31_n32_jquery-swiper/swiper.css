@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+/*n32 - jQuery無縫輪播樣式*/
+.n32 {
+  width: 400px;
+  margin: 100px auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+.window_n32 {
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.images {
+  position: relative;
+}
+
+.images > img {
+  width: 100%;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+}
+
+.images > img.current {
+  left: 0;
+  transform: translateX(0);
+  z-index: 1;
+}
+
+.images > img.leave {
+  transform: translateX(-100%);
+  z-index: 1;
+}
+
+.images > img.enter {
+  transform: translateX(100%);
+}
+
+/*n31 - jQuery有縫輪播圖*/
+.n31 {
+  width: 400px;
+  margin: 100px auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+.window_n31 {
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.images_n31 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.red {
+  color: red;
+}
+
+.indicator{
+    text-align: center;
+}
+
